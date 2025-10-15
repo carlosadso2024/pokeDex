@@ -23,6 +23,7 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
+            "outputPath": "dist/PokeApi",
             "browser": "src/main.ts",
             "polyfills": [
               "zone.js"
@@ -96,7 +97,9 @@
             ]
           }
         }
+    
+        }
       }
     }
   }
-}
+
