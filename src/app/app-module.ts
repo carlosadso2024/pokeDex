@@ -7,14 +7,12 @@ import { AppRoutingModule } from './app-routing-module';
 import { App } from './app';
 import { PokemonList } from './pokemon-list/pokemon-list';
 import { Card } from './pokemon-detail/card';
-import { PokeDex } from './poke-dex/poke-dex';
 
 @NgModule({
   declarations: [
     App,
     PokemonList,
     Card,
-    PokeDex
   ],
   imports: [
     BrowserModule,

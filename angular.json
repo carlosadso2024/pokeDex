@@ -96,10 +96,16 @@
               "src/styles.css"
             ]
           }
-        }
-    
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "buildTarget": "PokeApi:build:production",
+            "baseHref": "/pokeDex/",
+            "dir": "dist/PokeApi/browser"
+          }
         }
       }
     }
   }
-
+}
